@@ -1,0 +1,125 @@
+body
+    font-family: 'Unbounded', cursive
+h1
+    font-family: 'Unbounded', cursive
+    font-size: 4rem
+    text-transform: capitalize
+.bi
+    margin-right: 5px
+.author
+    font-weight: 300
+    text-decoration: none
+    padding: 5px 10px
+    position: absolute
+    bottom: 5px
+    right: 5px
+    transition: .3s
+    &:hover
+        background: #000
+        color: #fff
+        border-radius: 100px
+.start
+    height: 100vh
+.left, .right
+    width: 50%
+.img
+    &__1
+        width: 90%
+.description
+    font-family: 'Cormorant SC', serif
+.description:before
+    content: ''
+    background: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"%3E%3Cpath fill="currentColor" fill-rule="evenodd" d="M17 11a4 4 0 1 1 4-4c0 1.473-1.333 6.14-4 14h-2l2-10ZM7 11a4 4 0 1 1 4-4c0 1.473-1.333 6.14-4 14H5l2-10Z"%2F%3E%3C%2Fsvg%3E')
+    width: 40px
+    height: 40px
+    font-size: 20px
+    display: inline-block
+    background-repeat: no-repeat
+    background-position: center
+.item
+    text-align: center
+    border-radius: 5px
+    border: 1px solid #191919
+    font-size: 26px
+    font-family: 'Unbounded', cursive
+    padding: 15px
+    margin-right: 20px
+    & span
+        font-size: 12px
+        display: block
+        width: 100%
+.action
+    background: #0048d8
+    color: #fff
+    border-radius: 5px
+    padding: 17px 30px
+    font-size: 36px
+    text-decoration: none
+    font-weight: 500
+    transition: .3s
+    &:hover
+        color: #fff
+        transform: scale(1.01)
+.price-old
+    top: 0
+    right: 0
+    z-index: 999
+    background: #00b85c
+    font-size: 14px
+    padding: 3px 10px
+    border-radius: 0 5px 0 5px
+    font-weight: 300
+    & span
+        text-decoration: line-through
+        font-size: 10px
+        padding-left: 5px
+footer
+    background: #000
+    font-size: 10px
+    padding: 3px 10px
+    color: #fff
+    font-weight: 300
+.info
+    &__author img
+        max-width: 200px
+        border-radius: 1000px
+        border: 3px solid #0048d8
+        display: block
+        margin-left: auto
+        margin-right: auto
+    &__social
+        & a
+            font-size: 14px
+            font-weight: 500
+            background: #000
+            padding: 5px 15px
+            color: #fff
+            border-radius: 100px
+            text-decoration: none
+            margin-right: 20px
+        &__green
+            color: #00ac59
+        &__red
+            color: #3493f8
+    &__bio
+        font-size: 14px
+        font-weight: 300
+        max-width: 500px
+        margin-left: auto
+        margin-right: auto
+        font-family: 'Cormorant SC', serif
+        & ul
+            list-style: none
+            text-align: left
+            &>li
+                padding-top: 5px
+.add
+    position: absolute
+    bottom: -13px
+    right: 15px
+    padding: 1px 5px
+    font-size: 8px
+    font-weight: 300
+    border-radius: 0 0 4px 4px
+    color: #000
+    border: 0.5px solid #000
